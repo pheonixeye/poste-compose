@@ -20,6 +20,6 @@ services:
       - LETSENCRYPT_EMAIL=admin@human-kenna-proklinik-d2822aa5.koyeb.app
       - LETSENCRYPT_HOST=mail.human-kenna-proklinik-d2822aa5.koyeb.app
       - VIRTUAL_HOST=mail.human-kenna-proklinik-d2822aa5.koyeb.app
-    volumes:
+    # volumes:
       # - /etc/localtime:/app/etc/localtime:ro
       # - /mnt/poste:/da
